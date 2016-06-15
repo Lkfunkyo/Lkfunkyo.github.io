@@ -1,0 +1,47 @@
+.main-heading{
+  color: white;
+  
+  font-size: 3.0em;
+  
+  text-align: center;
+  display: block;
+  margin: auto;
+  
+  border: solid 10px rgb(240, 225, 0);
+}
+
+.top{
+  width: 20%;
+  
+  color: black;
+  background-color: white;
+  
+  transition-duration: 1s;
+  border: solid 1px green;
+}
+
+.top:hover{
+  background-color: green;
+  color: white;
+}
+
+.bigLinks {
+  color: rgb(240, 225, 0);
+  font-size: 2.0em;
+  
+  
+  text-align: left;
+  display: block;
+  margin-left: 1.5em;
+  margin-top: 1em;
+  
+  border: hidden 3px rgb(240, 225, 0);
+}
+
+
+
+body {
+  background-image: url("../Camera roll/5.jpg");
+  background-size: cover;
+  color: white;
+}

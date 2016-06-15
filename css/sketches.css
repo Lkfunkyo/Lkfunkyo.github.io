@@ -1,0 +1,10 @@
+
+
+canvas{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  
+  border: solid 3px rgb(240, 225, 0);
+}
