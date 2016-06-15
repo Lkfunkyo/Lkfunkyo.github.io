@@ -1,47 +1,57 @@
-.main-heading{
+.main-heading {
+  /**/
+  background-size: 25% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   color: white;
-  
-  font-size: 3.0em;
-  
-  text-align: center;
+  font-family: "serif";
+  text-align: top;
   display: block;
   margin: auto;
-  
-  border: solid 10px rgb(240, 225, 0);
+  border: hidden 10px rgb(240, 225, 0);
 }
 
-.top{
+.top {
   width: 20%;
-  
   color: black;
   background-color: white;
-  
-  transition-duration: 1s;
-  border: solid 1px green;
+  font-family: monospace;
+  font-size: 23px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 23px;
+  transition-duration: 0.4s;
+  border: solid 2.5px green;
+  overflow: hidden;
 }
 
-.top:hover{
+.top:hover {
   background-color: green;
   color: white;
+  border: solid 2px white;
 }
 
 .bigLinks {
   color: rgb(240, 225, 0);
   font-size: 2.0em;
-  
-  
   text-align: left;
   display: block;
   margin-left: 1.5em;
   margin-top: 1em;
-  
-  border: hidden 3px rgb(240, 225, 0);
 }
 
-
+#textContainer{
+  background-image: url("../images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 body {
-  background-image: url("../images/5.jpg");
+  background-image: url(../images/5.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
+
+h1 {}
