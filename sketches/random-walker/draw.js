@@ -5,19 +5,11 @@ var userWalker;
 
 var col;
 
-function preload() {
-  song = loadSound('sounds\\The Who - Teenage Wasteland -[ mymusicroad.net ].mp3');
-  song.amp(0.5);
-
-}
-
 function setup() {
   col = color(random(255), random(255), random(255), 60);
 
   createCanvas(displayWidth-40, displayHeight - 105);
   background(col);
-
-  song.loop();
 
   for (var i = 0; i < num; i++) {
     walker.push(new Walker(random(width), random(height)));
